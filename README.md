@@ -17,6 +17,11 @@ providing a secure, scalable, and reliable platform for trading virtual assets.
 - [RESTFul API](https://restfulapi.net/) - API
 - [GraphQL] (<https://graphql.org/>) - Query language
 - [PostgreSQL](https://www.postgresql.org/) - Database
+- [Pgbouncer](https://www.pgbouncer.org/) - Connection pooling
+- [OpenTelemetry](https://opentelemetry.io/) - Observability
+- [PgCrypto](https://www.postgresql.org/docs/current/pgcrypto.html) - Encryption
+- [Flyway](https://flywaydb.org/) - Migration management
+- [Swagger](https://swagger.io/) - API documentation
 - [Docker](https://www.docker.com/) - Containerization
 - [Docker Compose](https://docs.docker.com/compose/) - Container orchestration
 - [Jest](https://jestjs.io/) - Testing framework
