@@ -11,6 +11,11 @@ providing a secure, scalable, and reliable platform for trading virtual assets.
 - [Next.js](https://nextjs.org/) - React framework
 - [Spring Boot](https://spring.io/projects/spring-boot) - Java framework
 - [JDK 21](https://jdk.java.net/21/) - Java runtime
+- [Gradle](https://gradle.org/) - Build automation
+- [React](https://reactjs.org/) - JavaScript library
+- [Hibernate](https://hibernate.org/orm/) - Object-Relational Mapping
+- [RESTFul API](https://restfulapi.net/) - API
+- [GraphQL] (<https://graphql.org/>) - Query language
 - [PostgreSQL](https://www.postgresql.org/) - Database
 - [Docker](https://www.docker.com/) - Containerization
 - [Docker Compose](https://docs.docker.com/compose/) - Container orchestration
