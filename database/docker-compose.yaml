@@ -1,0 +1,20 @@
+services:
+  migrate:
+    image: migrate/migrate:latest
+    volumes:
+      - ./migrations:/migrations
+    networks:
+      - my-local-net
+    command:
+      [
+        "-path",
+        "/migrations/",
+        "-database",
+        "postgres://${PG_USER}:${PG_PASSWORD}@${PG_HOST}:${PG_PORT}/postgres?sslmode=disable&search_path=${PG_SCHEMA}",
+        "${MIGRATE_COMMAND}"
+      ]
+
+networks:
+  my-local-net:
+    external: true
+    name: local-bridge
