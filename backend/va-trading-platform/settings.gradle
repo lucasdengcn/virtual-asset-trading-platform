@@ -1,0 +1,9 @@
+rootProject.name = 'va-trading-platform'
+include 'payment-service'
+include 'asset-service'
+include 'order-service'
+include 'supporting-service'
+include 'platform-runtime'
+include 'asset-agent'
+include 'common-lib'
+
